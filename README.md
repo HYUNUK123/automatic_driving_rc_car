@@ -2,11 +2,12 @@
 
 * (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
 * jetson nano 기기에서 custom dateset 을 이용하여 train 한 model을 pytorch-gpu 를 사용하여 track-line, road, stopsign 등을
-* detect, segmentation 하여 Raspberry Pi 
+* detect, segmentation 하여 socket 통신으로 데이터를 전송하고, Raspberry Pi 에서 rc car 를 제어 합니다.
 
 ## High Level Design
 
 * (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
+* ![Adb](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/7fefb54c-8916-46ab-b41c-a052b7c7295b)
 
 ## Clone code
 
