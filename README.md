@@ -31,10 +31,10 @@ or use pip install
 ```
 pip install ultralytics
 ```
-!!!dependencies of the ultralytics package include cv-python, pytorch, numpy, etc...
+* !!!dependencies of the ultralytics package include cv-python, pytorch, numpy, etc...
 
-* if u use gpu or cuda device : check the number of the cuda device.
-* run test_ultralytics.py or add new python file.
+if u use gpu or cuda device : check the number of the cuda device.
+run test_ultralytics.py or add new python file.
 
 ```python3
 import ultralytics
