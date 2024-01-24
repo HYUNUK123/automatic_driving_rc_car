@@ -75,11 +75,11 @@ ultralytics.checks()
 * (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
 
 ```shell
-cd ~/xxxx
+cd ~/
 source .venv/bin/activate
 
 cd /path/to/repo/xxx/
-python demo.py -i xxx -m yyy -d zzz
+python3.8 ./cam.py
 ```
 
 ## Output
