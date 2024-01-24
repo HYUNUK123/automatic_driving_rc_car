@@ -1,4 +1,5 @@
 # Project automatic_driving_rc_car
+![스크린샷 2024-01-24 17-23-08](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/07caad37-a21c-4d2a-845a-1e381990c78f)
 
 * (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
 * jetson nano 기기에서 custom dateset 을 이용하여 train 한 model을 pytorch-gpu 를 사용하여 track-line, road, stopsign 등을
