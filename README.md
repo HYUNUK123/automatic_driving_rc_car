@@ -14,7 +14,7 @@
 * (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
 
 ```shell
-git clone https://github.com/xxx/yyy/zzz
+git clone https://github.com/82lilsak/automatic_driving_rc_car.git
 ```
 
 ## Prerequite
@@ -26,18 +26,32 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+or use pip install packagename
+*pip install ultralytics
+!!!dependencies of the ultralytics package include cv-python, pytorch, numpy, etc...
 
-## Steps to build
+* if u use gpu or cuda device : check the number of the cuda device.
+* run test_ultralytics.py or add new python file.
 
-* (프로젝트를 실행을 위해 빌드 절차 기술)
+```python3
+import ultralytics
 
-```shell
-cd ~/xxxx
-source .venv/bin/activate
-
-make
-make install
+ultralytics.checks()
 ```
+
+* There will be a similar output to this shape.
+* Ultralytics YOLOv8.1.5 🚀 Python-3.9.18 torch-2.2.0a0+gitd925d94 CUDA:0 (AMD Radeon RX 6600 XT, 8176MiB)
+* Setup complete ✅ (12 CPUs, 31.2 GB RAM, 177.6/915.3 GB disk)
+!!! CUDA:0 !!! 0 == It will output as many graphics devices as you have. 0 ~ n
+* If you only have one device that can accelerate one cuda, the output will be CUDA:0.
+
+  
+
+## Steps to train
+
+* (custom 학습 을 위해 절차 기술)
+
+
 
 ## Steps to run
 
