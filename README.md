@@ -30,7 +30,7 @@ pip install -r requirements.txt
 or use pip install
 ```terminal
 pip install ultralytics
-pip install 
+pip install cap_from_youtube
 ```
 * !!!dependencies of the ultralytics package include cv-python, pytorch, numpy, etc...
 
