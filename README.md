@@ -1,7 +1,8 @@
-# automatic_driving_rc_car
-# Project ABC
+# Project automatic_driving_rc_car
 
 * (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
+* jetson nano 기기에서 custom dateset 을 이용하여 train 한 model을 pytorch-gpu 를 사용하여 track-line, road, stopsign 등을
+* detect, segmentation 하여 Raspberry Pi 
 
 ## High Level Design
 
