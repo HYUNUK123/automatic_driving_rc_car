@@ -1,6 +1,6 @@
-train: /home/label_4/images
-val: /home/label_4/images
-test: /home/label_4/test/images
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
 
 nc: 10
 names: ['left', 'left-90', 'left-90-triangle', 'left-X', 'right', 'right-90', 'right-90-square', 'right-circle', 'road', 'track-line']
