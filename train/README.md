@@ -65,4 +65,4 @@ engine/trainer: task=segment, mode=train, model=yolov8n-seg.pt, data=/home/label
 
 ## 6. 훈련 완료
 올바르게 훈련이 완료되었다면, best.pt, last.pt 2개의 모델이 생성됩니다.
-* ![Screenshot from 2024-01-25 15-26-35](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/398acfbb-d2dc-4930-a73d-016da4e28a9f)
+![Screenshot from 2024-01-25 15-26-35](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/398acfbb-d2dc-4930-a73d-016da4e28a9f)
