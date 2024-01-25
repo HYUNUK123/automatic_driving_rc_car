@@ -15,7 +15,7 @@
 * customtrain and Upload 를 눌러 데이터셋과 라벨링 데이터를 다운로드 받습니다. 
 ![Screenshot from 2024-01-25 14-32-26](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/64124916-c2e2-4e92-b50b-4a5a71c6a886)
 * Yolov8 을 선택한 이후에 Get Snipet 을 눌러서 jupyter notebook , cli, direct link 중 1가지의 방법을 선택하여 다운로드 합니다.
-* 이후 unzip을 하여 test, valid, train 폴더와 data.yaml 파일을 /train/data 폴더에 옮겨줍니다.
+* 이후 unzip을 하여 test, valid, train 폴더와 data.yaml 파일을 repo/train/data 폴더에 옮겨줍니다.
 
 ![Screenshot from 2024-01-25 14-44-51](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/6dd9e04f-c348-462c-9bd4-a3b2b2f3fd35)
 
