@@ -37,8 +37,9 @@ change path
 * ex2) ./data/train/images
 
 open mkyaml.py
-* You need to modify the same path that you modified data.yaml in number 4.
+* You need to modify the same path that you modified data.yaml
 * and run mkyaml.py
+
 
 ## 4. Run train.py
 you need change this code
@@ -54,3 +55,12 @@ python ./train.py
 ```
 * if you run vscode or other ide
 click run button
+
+## 5. 선택한 model, yaml 파일을 확인합니다.
+* 올바르게 시작하였다면 다음과 유사하게 출력되어야 합니다.
+Ultralytics YOLOv8.1.5 🚀 Python-3.9.18 torch-2.2.0a0+gitd925d94 CUDA:0 (AMD Radeon RX 6600 XT, 8176MiB)
+engine/trainer: task=segment, mode=train, model=yolov8n-seg.pt, data=/home/label_4/line.yaml, epochs=1000, time=None, patience=50, batch=16, imgsz=320......
+
+## 6. 훈련 완료
+올바르게 훈련이 완료되었다면, best.pt, last.pt 2개의 모델이 생성됩니다.
+* ![Screenshot from 2024-01-25 15-26-35](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/398acfbb-d2dc-4930-a73d-016da4e28a9f)
