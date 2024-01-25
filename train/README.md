@@ -1,3 +1,6 @@
+## custom train yolov8 seg model guide
+
+
 ## 1. labelling and make custom dataset
 * https://roboflow.com/
 * robo flow 에서 segmentation 프로젝트를 생성하여 라벨링을 하고 데이터셋을 구축합니다.
