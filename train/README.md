@@ -58,6 +58,8 @@ click run button
 
 ## 5. 선택한 model, yaml 파일을 확인합니다.
 * 올바르게 시작하였다면 다음과 유사하게 출력되어야 합니다.
+
+
 Ultralytics YOLOv8.1.5 🚀 Python-3.9.18 torch-2.2.0a0+gitd925d94 CUDA:0 (AMD Radeon RX 6600 XT, 8176MiB)
 engine/trainer: task=segment, mode=train, model=yolov8n-seg.pt, data=/home/label_4/line.yaml, epochs=1000, time=None, patience=50, batch=16, imgsz=320......
 
