@@ -1,0 +1,13 @@
+train: /home/label_4/images
+val: /home/label_4/images
+test: /home/label_4/test/images
+
+nc: 10
+names: ['left', 'left-90', 'left-90-triangle', 'left-X', 'right', 'right-90', 'right-90-square', 'right-circle', 'road', 'track-line']
+
+roboflow:
+  workspace: track-3yiz9
+  project: labeling-h1oju
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/track-3yiz9/labeling-h1oju/dataset/5

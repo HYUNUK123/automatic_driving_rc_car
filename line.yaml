@@ -1,0 +1,15 @@
+names:
+- left
+- left-90
+- left-90-triangle
+- left-X
+- right
+- right-90
+- right-90-square
+- right-circle
+- road
+- track-line
+nc: 10
+test: /home/label_4/test/images
+train: /home/label_4/train/images/
+val: /home/label_4/valid/images/
