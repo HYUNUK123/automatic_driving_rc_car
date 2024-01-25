@@ -140,12 +140,6 @@ while True:
             print(f"위쪽으로의 거리: {distance_up}")
             print(f"좌측 대각선으로의 거리: {distance_diag_left}")
             print(f"우측 대각선으로의 거리: {distance_diag_right}")
-            time.sleep(0.2)
-            
-            
-
-
-            
             
     cv2.imshow('img', img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
