@@ -72,6 +72,24 @@ ultralytics.checks()
 * Use this link for next step
 * https://docs.ultralytics.com/ko/modes/train/
 
+4.
+* open data - data.yaml
+* change path  default path ../data/train/images
+* Use the absolute or relative path for the path
+* ex) /home/data/train/images
+* ex) ./data/train/images
+
+5. 
+* Run train.py
+* if you run terminal
+```terminal
+cd path
+python ./train.py 
+```
+
+* if you run vscode or other ide
+click run button
+
 ## Steps to run
 
 * (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
