@@ -19,10 +19,10 @@
 
 ## 3. change path data.yaml and name.yaml
 
-* Use this link for next step
-* https://docs.ultralytics.com/ko/modes/train/
+Use this link for next step
+https://docs.ultralytics.com/ko/modes/train/
 
-* open /data/data.yaml
+open /data/data.yaml
 
 ```terminal
 cd train/data
@@ -30,13 +30,13 @@ gedit ./data.yaml
 ```
 or open vscode, other editer
 
-* change path 
+change path 
 * default path ../data/train/images
 * Use the absolute or relative path for the path
 * ex1) /home/data/train/images
 * ex2) ./data/train/images
 
-* open mkyaml.py
+open mkyaml.py
 * You need to modify the same path that you modified data.yaml in number 4.
 * and run mkyaml.py
 
@@ -46,7 +46,7 @@ you need change this code
 ```Python
 model.train(data='/yourpath/data/name.yaml', epochs=1000, patience=50, batch=16, imgsz=320)
 ```
-* Run train.py terminal or vscode
+Run train.py terminal or vscode
 * if you run terminal
 ```terminal
 cd train
