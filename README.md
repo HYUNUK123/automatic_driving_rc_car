@@ -69,11 +69,13 @@ If you only have one device that can accelerate one cuda, the output will be CUD
 ## Steps to run
 
 * (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
-1. calculate dist on jetson
+1. activate venv
 ```jetson-terminal
 cd ~/
 source .venv/bin/activate
-
+```
+2. calculate dist on jetson
+```
 cd /path_to_repo/ \
 python3.8 ./socket_dist_jetson.py
 ```
