@@ -1,0 +1,11 @@
+1. model.train(data='/home/lab_4/name.yaml', epochs=1000, patience=50, batch=32, imgsz=320)
+모델의 하이퍼 파라미터의 imgsz를 416 으로 학습시키고 predict 하니까 jetson nano 에서 추론까지의 시간이 너무 오래걸려서 
+재학습시 imgsz 를 320으로 낮춰 학습시키고 
+추론도 imgsz를 320으로 했더니 조금 더 프레임을 확보 할수 있었습니다.
+results = model.predict(img, stream=True, imgsz=320, half=True)
+
+
+2. 기존의 모델을 학습을 위한 데이터셋에 겹치는 공간을 분리하기위해 너무 많은 classes 를 만들어 연산의 중복과 쓸모없는 연산을 했었습니다.
+기존에 10개의 classes 에서 track-line 1종류와 방향 지시표 인 4종류 , 총 5가지의 classes 로 줄여서 연산량을 줄였습니다.
+
+3. labeling 에 자동화 툴을 사용하거나, 작업을 외주맡겼으면 비용은 나가지만 조금 더 편하게 프로젝트를 진행 했을것 같습니다.
