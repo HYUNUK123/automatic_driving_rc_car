@@ -29,6 +29,8 @@ git clone https://github.com/82lilsak/automatic_driving_rc_car.git
 
 * (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
 
+Pip install the ultralytics package including all requirements in a Python>=3.8 environment with PyTorch>=1.8.
+
 ```shell
 python -m venv .venv
 source .venv/bin/activate
