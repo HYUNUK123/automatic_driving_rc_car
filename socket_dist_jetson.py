@@ -141,7 +141,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
                     selected_point = (330, 380)
                     cv2.circle(img, selected_point, 15, (0,0,255), -1)
                     if class_names[int(box.cls)] == 'track-line':
-                    # 거리 측정
+                        # 거리 측정
                         distance_up, distance_diag_left, distance_diag_right = find_track_line_distance(img, seg, selected_point)
                     
                     print(f"위쪽으로의 거리: {distance_up}")
