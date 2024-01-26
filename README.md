@@ -69,19 +69,16 @@ If you only have one device that can accelerate one cuda, the output will be CUD
 ## Steps to run
 
 * (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
-
+1. calculate dist on jetson
 ```jetson-terminal
 cd ~/
 source .venv/bin/activate
 
-cd /path_to_repo/segmentation/
-python3.8 ./seg_dist.py
+cd /path_to_repo/ \
+python3.8 ./socket_dist_jetson.py
 ```
 
-```jetson_nano_server
-adb
-```
-
+2. read dist on raspberry_pi
 ```raspberry_pi_client
 adb
 ```
