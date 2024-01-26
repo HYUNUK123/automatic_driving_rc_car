@@ -111,8 +111,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
             success, img = cap.read()
         
             if not success:
-                print('1')
-                continue  # 다음 반복을 건너뜀
+                print('vid is over')
+                break  # 다음 반복을 건너뜀
 
             h, w, _ = img.shape
             results = model.predict(img, stream=True, imgsz=320, half=True)
