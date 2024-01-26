@@ -51,11 +51,13 @@ import ultralytics
 ultralytics.checks()
 ```
 
-* There will be a similar output to this shape.
+There will be a similar output to this shape.
 * Ultralytics YOLOv8.1.5 🚀 Python-3.9.18 torch-2.2.0a0+gitd925d94 CUDA:0 (AMD Radeon RX 6600 XT, 8176MiB)
 * Setup complete ✅ (12 CPUs, 31.2 GB RAM, 177.6/915.3 GB disk)
 !!! CUDA:0 !!! 0 == It will output as many graphics devices as you have. 0 ~ n
-* If you only have one device that can accelerate one cuda, the output will be CUDA:0.
+
+
+If you only have one device that can accelerate one cuda, the output will be CUDA:0.
 
   
 
