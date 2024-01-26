@@ -11,6 +11,12 @@
 * (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
 * ![Adb](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/7fefb54c-8916-46ab-b41c-a052b7c7295b)
 
+
+## Sequence diagram
+![Sequence diagram](https://github.com/82lilsak/automatic_driving_rc_car/assets/141192357/cfbc2c43-b472-4f70-b7e9-add9712620ec)
+
+
+
 ## Clone code
 
 * (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
