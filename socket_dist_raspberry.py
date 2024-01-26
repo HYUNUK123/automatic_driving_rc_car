@@ -1,6 +1,13 @@
+'''
+This file is a file that receives the value 
+of the distance through socket communication with jetson nano.
+'''
+
+
 import socket
 
 HOST ='192.168.180.216'  # 서버의 IP 주소
+# You have to put jetson's ip address in the host.
 PORT = 12345            # 서버에서 사용하는 포트 번호
 
 # 서버에 연결
