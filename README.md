@@ -94,3 +94,14 @@ adb
 ## Appendix
 
 * (참고 자료 및 알아두어야할 사항들 기술)
+1. yolov8 docs
+* https://docs.ultralytics.com/ko/tasks/segment/
+
+2. roboflow docs
+* https://docs.roboflow.com/
+
+3. ibaiGorordo's ONNX-YOLOv8-Instance-Segmentation repo
+* https://github.com/ibaiGorordo/ONNX-YOLOv8-Instance-Segmentation/tree/main
+
+4. Use 'naseemap47' commented as base code
+* https://github.com/ultralytics/ultralytics/issues/561
